@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    margin: 2rem auto;
+    background-color: aqua;
+    width: 1000px;
+    grid-gap: 15px, 20px;
+}
