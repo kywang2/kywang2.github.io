@@ -1,15 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap");
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.Hobbies {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    margin: 2rem auto;
-    background-color: aqua;
-    width: 1000px;
-    grid-gap: 15px, 20px;
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem auto;
+  width: 800px;
+}
+
+.skills-title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+:root {
+  --color1: #00072d;
+  --color2: #058ed9;
+  --color3: #ff4800;
+  --color4: #a6a6a8;
+  --color5: #272635;
+  --titleFont: "Abril Fatface", cursive;
+  --bodyFont: "Open Sans", sans-serif;
+}
+
+.title-font {
+  font-family: var(--titleFont);
+  color: var(--color3);
+  text-align: center;
+}
+
+.body-font {
+  font-family: var(--bodyFont);
+  color: var(--color2);
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.nav-bar {
+  height: 60px;
+  width: 100%;
+  background-color: var(--color4);
+}
+
+.nav-bar ul li a {
+  color: var(--color5);
+  text-decoration: none;
+  font-size: 15pt;
+  vertical-align: center;
+  font-weight: bold;
+}
+
+.nav-bar ul li {
+  margin: 15px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--color1);
+}
+
+.image1 {
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 50%;
+}
+
+.image2 {
+  display: block;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  transform: rotate(90deg);
+}
+
+.image3 {
+  display: block;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+.logos img {
+    width: auto;
+    padding: 5px;
+    height: 100px;
+  }
+
+ .logos {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+  }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+  font-family: var(--bodyFont);
+  color: var(--color5);
 }
