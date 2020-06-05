@@ -92,7 +92,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 300px;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
 }
 
 .image3 {
