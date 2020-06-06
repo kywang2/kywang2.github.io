@@ -64,7 +64,7 @@
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .nav-bar {
     width: 100%;
     height: auto;
