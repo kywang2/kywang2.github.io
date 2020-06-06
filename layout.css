@@ -60,6 +60,17 @@
   font-weight: bold;
 }
 
+.nav-bar ul li a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .nav-bar ul li {
   margin: 15px;
 }
