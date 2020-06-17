@@ -8,9 +8,9 @@
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   margin: 2rem auto;
-  width: 800px;
+  width: 1000px;
 }
 
 .skills-title {
@@ -136,3 +136,4 @@ body {
   font-family: var(--bodyFont);
   color: var(--color5);
 }
+
